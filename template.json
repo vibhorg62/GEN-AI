@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "length",
+        "paper",
+        "style"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\nYou are an AI research expert.\n\nExplain the research paper \"{paper}\".\n\nExplanation Style: {style}\n\nExplanation Length: {length}\n\nInclude:\n1. Main idea\n2. Working\n3. Advantages\n4. Applications\n5. Limitations\n",
+    "template_format": "f-string",
+    "validate_template": false,
+    "_type": "prompt"
+}
