@@ -35,4 +35,4 @@ prompt = chat_template.invoke({
 })
 
 # Print formatted prompt
-print(prompt)
+print(prompt) 
