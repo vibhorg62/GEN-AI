@@ -37,4 +37,25 @@ template=NakliPromptTemplate(
 
 prompt=template.format({'length':'short','topic':'india'})
 llm=NakliLLM()
-print(llm.predict(prompt))
+#print(llm.predict(prompt))
+
+class NakliLLMChain:
+    
+    def __init__(self,llm,prompt):
+        self.llm=llm
+        self.prompt=prompt
+    
+    def run(self,input_dict):
+        final_prompt=self.prompt.format(input_dict)
+        result=self.llm.predict(final_prompt)
+        
+        return result['response']
+    
+template=NakliPromptTemplate(
+    template='Write a {length} poem about {topic}',
+    input_variables=['length','topic']
+)
+
+llm=NakliLLM()
+chain=NakliLLMChain(llm,template)
+# print(chain.run({'length':'short','topic':'india'}))
