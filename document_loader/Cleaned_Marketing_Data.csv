@@ -1,0 +1,10 @@
+Company,Month,Region,Marketing_Channel,Ad_Spend,Leads_Generated,Conversions,Revenue
+Brand A,Jan-2026,North,Social Media,50000.0,1200,150,300000
+Brand B,Jan-2026,West,Google Ads,60000.0,1400,180,350000
+Brand C,Jan-2026,South,Email,20000.0,800,100,150000
+Brand A,Feb-2026,East,Social Media,55000.0,1300,160,320000
+Brand B,Feb-2026,North,Google Ads,0.0,1500,200,380000
+Brand C,Feb-2026,West,Email,25000.0,900,120,170000
+Brand A,Mar-2026,South,Influencer,70000.0,1600,220,420000
+Brand B,Mar-2026,East,Social Media,50000.0,1200,170,310000
+Brand C,Mar-2026,North,Google Ads,40000.0,1000,130,200000
